@@ -36,7 +36,7 @@ const BusArrivalTime = ({ station, cityCode }) => {
             }
         };
 
-        // 5초마다 도착 예정 시간 API 호출
+        // 20초마다 도착 예정 시간 API 호출
         const intervalId = setInterval(fetchArrivalTime, 20000);
 
         // 첫 번째 호출을 즉시 실행
